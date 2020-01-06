@@ -1,0 +1,23 @@
+% Do not forget to use packages amsmath, amssymb, mathtools, bm, gensymb
+\newcommand{\mc}[1]{\ensuremath{\mathcal{#1}}}				% calligraphic letters
+\newcommand{\bmm}[1]{\ensuremath{\mathbb{#1}}}				% blackboard letters
+\newcommand{\tran}{\mathsf{T}}						% transpose operator
+\newcommand{\hermit}{\mathsf{H}}					% hermitian operator
+\newcommand{\frob}[1]{\ensuremath{\left\|#1\right\|_\textrm{F}}}	% frobenius norm
+\newcommand{\neuclid}[1]{\ensuremath{\left\|#1\right\|_\textrm{2}}}	% l2 norm
+\newcommand{\esp}[1]{\ensuremath{\mathbb{E}\left[#1\right]}}		% stat expectation
+
+\DeclareMathOperator{\Blkdiag}{Blkdiag}
+\DeclareMathOperator{\Diag}{Diag}
+\DeclareMathOperator{\diag}{diag}
+\DeclareMathOperator{\trace}{Tr}
+\DeclareMathOperator{\rank}{rank}
+\DeclareMathOperator{\vecspan}{span}
+\DeclareMathOperator{\matnull}{null}
+
+\let\vec\relax
+\DeclareMathOperator{\vec}{vec}
+\DeclareMathOperator{\unvec}{unvec}
+\DeclarePairedDelimiterX{\openinterval}[2]{]}{]}{#1,#2}
+\DeclarePairedDelimiterX{\openintervalboth}[2]{]}{[}{#1,#2}
+\DeclarePairedDelimiterX{\closedinterval}[2]{[}{]}{#1,#2}
